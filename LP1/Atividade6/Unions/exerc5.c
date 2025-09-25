@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-
-
-
-
-
 struct Animal {
 	union {
 		//anfibio
