@@ -1,3 +1,5 @@
+//LÊ A STRING DO ARQUIVO DO EXERCICIO 1 
+
 #include <stdio.h>
 #include <string.h>
 
