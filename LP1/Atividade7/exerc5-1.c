@@ -1,3 +1,5 @@
+//ESCREVE UMA STRING EM UM ARQUIVO (COM FWRITE)
+
 #include <stdio.h>
 
 void escreve_string (FILE* f, char* str)
