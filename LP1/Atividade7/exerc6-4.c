@@ -19,10 +19,7 @@ int main (void)
 	FILE* f = fopen("./file6-2", "wb");
 	
 	for (int i = 0; i < s ; i++)
-	{
-		fwrite(&str[i][0], sizeof(char), n-1, f);
-		str[i][n-1] = '\0';	
-	}
+		fwrite(&str[i][0], sizeof(char), n, f);
 
 	fclose(f);
 
