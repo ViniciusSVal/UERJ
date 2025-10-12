@@ -1,3 +1,5 @@
+//ESCREVE 10 STRINGS EM UM ARQUIVO
+
 #include <stdio.h>
 
 #define s 10 //quantidade de Strings
