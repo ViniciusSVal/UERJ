@@ -1,3 +1,5 @@
+//ESCREVE 10 STRINGS EM UM ARQUIVO (COM FWRITE)
+
 #include <stdio.h>
 
 #define s 10 //quantidade de Strings
@@ -14,7 +16,7 @@ int main (void)
 		scanf("%25s", &str[i][0]);
 	}
 
-	FILE* f = fopen("./file2", "wb");
+	FILE* f = fopen("./file6-2", "wb");
 	
 	for (int i = 0; i < s ; i++)
 	{
