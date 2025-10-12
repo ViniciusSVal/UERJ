@@ -64,7 +64,7 @@ void ler_pessoas (struct Pessoa* p, int length, FILE* f)
 		{
 			c = fgetc(f);
 			
-			printf("%c", c);
+			//printf("%c", c);
 			if ( c <= 0 || 255 < c )
 			{
 			 	p[i].nome[j] = '\0';	
