@@ -1,3 +1,5 @@
+//LÊ UMA STRING DO ARQUIVO DO EXERCICIO 5-1 (COM FREAD)
+
 #include <stdio.h>
 #include <string.h>
 
@@ -7,7 +9,7 @@ int main (void)
 {
 	char str[n];
 
-	FILE* f = fopen("./file1", "rb");
+	FILE* f = fopen("./file5-1", "rb");
 	
 	fread(str, sizeof(char), n, f);
 	str[n] = '\0';
