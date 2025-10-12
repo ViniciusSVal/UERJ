@@ -1,3 +1,5 @@
+//SALVA/LÊ OS DADOS DE 10 PESSOAS EM/DE UM ARQUIVO (GASTO OTIMIZADO DE MEMÓRIA DE DISCO)
+
 #include <stdio.h>
 
 #define n 4 //qtd de pessoas
