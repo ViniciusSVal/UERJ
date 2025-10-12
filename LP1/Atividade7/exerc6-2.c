@@ -9,7 +9,7 @@ int main (void)
 {
 	char str[n];
 
-	FILE* f = fopen("./file5-1", "rb");
+	FILE* f = fopen("./file6-1", "rb");
 	
 	fread(str, sizeof(char), n, f);
 	str[n] = '\0';
