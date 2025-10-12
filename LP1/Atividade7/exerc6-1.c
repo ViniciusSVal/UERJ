@@ -11,15 +11,9 @@ int main (void)
 	scanf("%25s", str);
 
 	FILE* f = fopen("./file6-1", "wb");
-	
+
+	//escreve a string, sem o '\0'
 	fwrite(str, sizeof(char), strlen(str), f);
-	/*
-	for (int i = 0; str[i] != '\0'; i++)
-	{
-		fputc(str[i], f);
-	}
-	*/
-	fputc('\n', f);
 	
 	fclose(f);
 
