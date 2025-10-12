@@ -17,11 +17,15 @@ int main (void)
 	}
 
 	FILE* f = fopen("./file2", "w");
-	
-	for (int i = 0; i < s ; i++)
+    
+	//salvando cada string, com uma quebra de linha entre elas
+    for (int i = 0; i < s ; i++)
+	{
 		for (int j = 0; str[i][j] != '\0'; j++)
-			fputc(str[i][j], f);
-
+        	fputc(str[i][j], f);
+    	fputc('\n', f);
+	}
+	
 	fclose(f);
 
 	return 0;
