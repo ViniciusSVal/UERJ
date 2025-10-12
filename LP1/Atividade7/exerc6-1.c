@@ -10,7 +10,7 @@ int main (void)
 	printf("String de 25 caracteres: ");
 	scanf("%25s", str);
 
-	FILE* f = fopen("./file5-1", "wb");
+	FILE* f = fopen("./file6-1", "wb");
 	
 	fwrite(str, sizeof(char), strlen(str), f);
 	/*
