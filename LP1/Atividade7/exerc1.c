@@ -1,3 +1,5 @@
+//ESCREVE UMA STRING EM UM ARQUIVO
+
 #include <stdio.h>
 
 int main (void)
